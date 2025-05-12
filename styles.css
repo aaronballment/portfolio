@@ -24,12 +24,13 @@ body{
 }
 .list-heading{
     font-weight: bold;
+    font-size: 20px;
 }
 
 .btn_wrapper{
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 15px;
     padding-bottom: 30px;
 }
 .btn_social{
@@ -65,4 +66,21 @@ body{
     display: block;
     margin-left: 5%;
 }
-
+.heading2{
+    display: block;
+    text-align: center;
+}
+.navigation_btn{
+    text-align: center;
+    width: 100px;
+    background-color: #fff;
+    color: #0e0c35;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+}
