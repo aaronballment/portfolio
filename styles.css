@@ -84,3 +84,9 @@ body{
     text-align: center;
     padding: 10px;
 }
+.btn_wrapper_return{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 50px;
+}
