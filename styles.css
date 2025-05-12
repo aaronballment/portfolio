@@ -21,7 +21,6 @@ body{
 }
 .experiences{
     padding-top: 15px;
-    
 }
 .list-heading{
     font-weight: bold;
@@ -46,5 +45,24 @@ body{
 .btn_social:hover{
     background-color: #cfcfcf;
     color: #0e0c35;
+}
+
+.return{
+    width: 150px;
+    text-align: center;
+    background-color: #fff;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: #0e0c35;
+}
+
+.divider{
+    width: 90%;
+    border-color: white;
+}
+.content{
+    display: block;
+    margin-left: 5%;
 }
 
