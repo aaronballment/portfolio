@@ -1,6 +1,7 @@
 body{
     background: linear-gradient(135deg, #153677, #4e084e);
     background-attachment: fixed;
+    font-family: "Roboto Mono", monospace;
 }
 .darkMode{
     color: #fff;
@@ -47,16 +48,23 @@ body{
 .btn_social:hover{
     background-color: #fff;
     color: #0e0c35;
+    font-weight: bold;
 }
 
 .return{
     width: 150px;
     text-align: center;
     background-color: transparent;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid white;
     border-radius: 10px;
     color: #fff;
+}
+.return:hover{
+    background-color: #fff;
+    color: #0e0c35;
+    font-weight: bolder;
+
 }
 
 .divider{
@@ -73,13 +81,19 @@ body{
 }
 .navigation_btn{
     text-align: center;
-    width: 100px;
-    background-color: transparent;
-    color: #fff;
+    width: 150px;
+    background-color: #fff;
+    color: #0e0c35;
+    font-weight: 500;
+    font-size: larger;
     padding: 10px;
     border: 2px solid white;
     border-radius: 5px;
     text-decoration: none;
+}
+.navigation_btn:hover{
+    color: #153677;
+    font-weight: bolder;
 }
 .heading{
     text-align: center;
@@ -90,4 +104,48 @@ body{
     justify-content: center;
     gap: 15px;
     padding: 50px;
+}
+#btn_padding{
+    padding-top: 30px;
+}
+.projects{
+    width: 600px;
+    height: 353px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    border: 3px solid black;
+    box-shadow: 0px 0px 15px white;
+}
+.projects:hover{
+    opacity: 0.5;
+}
+
+#ProjectsContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+.projectTitle{
+    text-align: center;
+    margin: auto;
+    text-shadow: 0px 0px 3px black;
+    
+}
+.projectTitle h1{
+    opacity: 1;
+}
+.projectLink{
+    text-decoration: none;
+    color: #fff;
+}
+.projectLink:visited{
+    text-decoration: none;
+    color: #fff;
+}
+#toDoList{
+    background-image: url("toDoList.png");
+}
+#businessCard{
+     background-image: url("businessCard.png");
 }
