@@ -125,11 +125,12 @@ body{
 #ProjectsContainer{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 50px;
 }
 .projectTitle{
     text-align: center;
     margin: auto;
-    text-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 5px black;
     
 }
 .projectTitle h1{
