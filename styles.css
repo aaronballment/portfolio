@@ -148,10 +148,10 @@ body{
     color: #fff;
 }
 #toDoList{
-    background-image: url("toDoList.png");
+    background-image: url("images/toDoList.png");
 }
 #businessCard{
-     background-image: url("businessCard.png");
+     background-image: url("images/businessCard.png");
 }
 #visited{
     background: transparent;
