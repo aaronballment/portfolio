@@ -49,6 +49,7 @@ body{
     background-color: #fff;
     color: #0e0c35;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .return{
@@ -64,7 +65,7 @@ body{
     background-color: #fff;
     color: #0e0c35;
     font-weight: bolder;
-
+    cursor: pointer;
 }
 
 .divider{
@@ -94,6 +95,7 @@ body{
 .navigation_btn:hover{
     color: #153677;
     font-weight: bolder;
+    cursor: pointer;
 }
 .heading{
     text-align: center;
@@ -120,6 +122,7 @@ body{
 }
 .projects:hover{
     opacity: 0.5;
+    cursor: pointer;
 }
 
 #ProjectsContainer{
@@ -149,4 +152,8 @@ body{
 }
 #businessCard{
      background-image: url("businessCard.png");
+}
+#visited{
+    background: transparent;
+    color:#fff;
 }
