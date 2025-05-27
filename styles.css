@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(135deg, #153677, #4e084e);
+    background: linear-gradient( #153677, #4e084e);
     background-attachment: fixed;
     font-family: "Roboto Mono", monospace;
 }
@@ -110,22 +110,42 @@ body{
 #btn_padding{
     padding-top: 30px;
 }
-.projects{
+.projects {
     width: 600px;
     height: 353px;
     display: flex;
     align-items: center;
-    background-size: cover;
-    background-position: center;
-    border: 3px solid black;
-    box-shadow: 0px 0px 15px white;
-}
-.projects:hover{
-    opacity: 0.5;
-    cursor: pointer;
+    border: 5px solid black;
+    box-shadow: 0px 0px 20px white;
+    position: relative;
 }
 
-#ProjectsContainer{
+.projects::before {
+    content: "";
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#toDoList::before {
+    background-image: url('images/toDoList.png');
+}
+
+#businessCard::before {
+    background-image: url('images/businessCard.png');
+}
+
+.projects:hover::before {
+    opacity: 1;
+}
+
+#ProjectsContainer {
     display: flex;
     justify-content: space-evenly;
     padding-top: 50px;
@@ -133,8 +153,7 @@ body{
 .projectTitle{
     text-align: center;
     margin: auto;
-    text-shadow: 0px 0px 5px black;
-    
+    text-shadow: 0px 0px 3px black;
 }
 .projectTitle h1{
     opacity: 1;
@@ -146,12 +165,6 @@ body{
 .projectLink:visited{
     text-decoration: none;
     color: #fff;
-}
-#toDoList{
-    background-image: url("images/toDoList.png");
-}
-#businessCard{
-     background-image: url("images/businessCard.png");
 }
 #visited{
     background: transparent;
