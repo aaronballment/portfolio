@@ -100,6 +100,8 @@ body{
 .heading{
     text-align: center;
     padding: 10px;
+    font-weight: bolder;
+    text-shadow: 0 0 4px black;
 }
 .btn_wrapper_return{
     display: flex;
@@ -169,4 +171,14 @@ body{
 #visited{
     background: transparent;
     color:#fff;
+}
+#EducationContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: top;
+    margin: 0 50px;
+}
+.educationHeading{
+    text-align: center;
 }
