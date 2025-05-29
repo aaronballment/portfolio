@@ -72,9 +72,10 @@ body{
     width: 90%;
     border-color: white;
 }
-.content{
+#aboutMeContent{
     display: block;
-    margin-left: 5%;
+    margin: 0 0 0 5%;
+
 }
 .heading2{
     display: block;
@@ -181,4 +182,16 @@ body{
 }
 .educationHeading{
     text-align: center;
+}
+.techImg{
+    width: 100px;
+    padding: 30px;
+
+}
+#techImgContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+
 }
