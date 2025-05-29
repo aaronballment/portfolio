@@ -2,56 +2,58 @@ body{
     background: linear-gradient( #153677, #4e084e);
     background-attachment: fixed;
     font-family: "Roboto Mono", monospace;
-}
-.darkMode{
     color: #fff;
 }
+#hero{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 25px;
+}
+#heroTitle{
+    text-shadow: 0 0 3px black;
+    padding-left: 30px;
+}
+#heroTitle h1{
+    font-size: 100px;
+}
+#heroTitle h3, p{
+    display: flex;
+    font-size: 20px;
+    align-items: top;
+    margin-top: -20px;
+}
+#heroTitle h3{
+    margin-top: -50px;
+    font-size: 40px;
+}
+
 
 .pfp{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100px;
-    height: 100px;
+    margin-left: 200px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     border: 5px solid #fff;
 }
-.name{
-    display: block;
-    text-align: center;
-    
-}
-.experiences{
-    padding-top: 15px;
-}
+
+
 .list-heading{
     font-weight: bold;
     font-size: 20px;
+    padding-bottom: 30px;
 }
-
 .btn_wrapper{
     display: flex;
     justify-content: center;
     gap: 15px;
-    padding-bottom: 30px;
 }
-.btn_social{
-    text-align: center;
-    width: 100px;
-    background-color: transparent;
-    color: #fff;
-    padding: 10px;
-    border: 2px solid white;
-    border-radius: 5px;
-    text-decoration: none;
+#heroBtn{
+    justify-content: start;
 }
-.btn_social:hover{
-    background-color: #fff;
-    color: #0e0c35;
-    font-weight: bold;
-    cursor: pointer;
+#btnImg{
+    width: 60px;
 }
-
 .return{
     width: 150px;
     text-align: center;
@@ -102,7 +104,7 @@ body{
     text-align: center;
     padding: 10px;
     font-weight: bolder;
-    text-shadow: 0 0 4px black;
+    text-shadow: 0 0 3px black;
 }
 .btn_wrapper_return{
     display: flex;
@@ -112,6 +114,7 @@ body{
 }
 #btn_padding{
     padding-top: 30px;
+    padding-bottom: 100px;
 }
 .projects {
     width: 600px;
@@ -176,9 +179,12 @@ body{
 #EducationContent{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: top;
     margin: 0 50px;
+}
+#EducationContent p{
+    padding: 3px 0;
 }
 .educationHeading{
     text-align: center;

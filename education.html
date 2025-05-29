@@ -1,91 +1,94 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css" />
-        <script src="index.js"></script>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">    
-    </head>
-    <body>
-        <div>
-            <img class = "pfp" src="images/pfp.jpeg"/>
-        </div>
-        <div class = "darkMode">
-            <div>
-                <h1 class = "name"> Aaron Ballment</h1>
-                <h3 class = "name"> Aspiring Software Engineer</h3>
-            </div>
-            <div class = "btn_wrapper">
-                <a href = "https://www.linkedin.com/in/aaronballment" target="_blank">
-                <button class = "btn_social">LinkedIn</button>
+
+<head>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="hero">
+        <img class="pfp" src="images/pfp.jpeg" />
+        <div id="heroTitle">
+            <h1> Aaron Ballment</h1>
+            <h3> Aspiring Software Engineer</h3>
+            <p>📍 Queensland, Australia</h3>
+            <div class="btn_wrapper" id="heroBtn">
+                <a href="https://www.linkedin.com/in/aaronballment" target="_blank">
+                    <img id="btnImg" src="images/LinkedIn-Logo.png">
                 </a>
-                <a href = "https://www.github.com/aaronballment" target="_blank">
-                <button class = "btn_social">GitHub</button>
+                <a href="https://www.github.com/aaronballment" target="_blank">
+                    <img id="btnImg" src="images/GitHub-Logo.png">
                 </a>
-                <a href = "https://www.youtube.com/channel/UCFOiV27s_rc06VLiciWk5cQ" target="_blank">
-                <button class = "btn_social">Youtube</button> 
-                </a>
-            </div>
-            <hr class = "divider"/>
-            <div class = "btn_wrapper" id="btn_padding">
-                <a href="experience.html">
-                <button class = "navigation_btn">Experience</button>
-                </a>
-                <button class = "navigation_btn" id="visited">Education</button>
-                <a href="skills.html">
-                <button class = "navigation_btn">Skills</button>
-                </a>
-                </a>
-                <a href="projects.html">
-                <button class = "navigation_btn">Projects</button>
-                </a>
-            </div>
-            <div>
-                <h1 class = "heading">Education</h1>
-                <div id = "EducationContent">
-                    <div>
-                        <h2 class = "educationHeading">Primary & Secondary Education</h2>
-                        <hr>
-                        <ol>
-                            <li class = "list-heading">St Anthony's Catholic Primary School</li>
-                            <p>Primary Education</p>
-                            <p>(2012 - 2014)</p>
-                            <li class = "list-heading">Brisbane Christian College</li>
-                            <p>Primary & Secondary Education</p>
-                            <p>(2015 - 2024)</p>
-                        </ol>
-                    </div>
-                    <div>
-                        <h2 class = "educationHeading">Higher Education</h2>
-                        <hr>
-                        <ol>
-                            <li class = "list-heading">La Trobe University</li>
-                            <p>Introduction to Cyber Security CSE1ICB</p>
-                            <p>Data Based Critical Thinking STA1DCT</p>
-                            <p>(2025 - 2025)</p>
-                            <li class = "list-heading">Queensland University of Technology</li>
-                            <p>Diploma of Information Technology</p>
-                            <p>Bachelor of Information Technology (Computer Science)</p>
-                            <p>(2025 - Present)</p>
-                        </ol>
-                    </div>
-                    <div>
-                        <h2 class = "educationHeading">Certifications</h2>
-                        <hr>
-                        <ol>
-                            <li class = "list-heading">Basair Aviation College</li>
-                            <p>Certificate 3 Aviation (Remote Piloting)</p>
-                            <p>(2023 - 2023)</p>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-            <div class = "btn_wrapper_return">
-                <a href = "index.html">
-                    <button class = "return">Return Home</button>
+                <a href="https://www.youtube.com/channel/UCFOiV27s_rc06VLiciWk5cQ" target="_blank">
+                    <img id="btnImg" src="images/Youtube-Logo.png">
                 </a>
             </div>
         </div>
-    </body>
+    </div>
+    <hr class="divider" />
+    <div class="btn_wrapper" id="btn_padding">
+        <a href="experience.html">
+            <button class="navigation_btn">Experience</button>
+        </a>
+        <button class="navigation_btn" id="visited">Education</button>
+        <a href="skills.html">
+            <button class="navigation_btn">Skills</button>
+        </a>
+        </a>
+        <a href="projects.html">
+            <button class="navigation_btn">Projects</button>
+        </a>
+    </div>
+    <div>
+        <h1 class="heading">Education</h1>
+        <div id="EducationContent">
+            <div>
+                <h2 class="educationHeading">Primary & Secondary Education</h2>
+                <hr>
+                <ol>
+                    <li class="list-heading">St Anthony's Catholic Primary School</li>
+                    <p>Primary Education</p>
+                    <p>(2012 - 2014)</p>
+                    <li class="list-heading">Brisbane Christian College</li>
+                    <p>Primary & Secondary Education</p>
+                    <p>(2015 - 2024)</p>
+                </ol>
+            </div>
+            <div>
+                <h2 class="educationHeading">Higher Education</h2>
+                <hr>
+                <ol>
+                    <li class="list-heading">La Trobe University</li>
+                    <p>Introduction to Cyber Security CSE1ICB</p>
+                    <p>Data Based Critical Thinking STA1DCT</p>
+                    <p>(2025 - 2025)</p>
+                    <li class="list-heading">Queensland University of Technology</li>
+                    <p>Diploma of Information Technology</p>
+                    <p>Bachelor of Information Technology (Computer Science)</p>
+                    <p>(2025 - Present)</p>
+                </ol>
+            </div>
+            <div>
+                <h2 class="educationHeading">Certifications</h2>
+                <hr>
+                <ol>
+                    <li class="list-heading">Basair Aviation College</li>
+                    <p>Certificate 3 Aviation (Remote Piloting)</p>
+                    <p>(2023 - 2023)</p>
+                </ol>
+            </div>
+        </div>
+    </div>
+    <div class="btn_wrapper_return">
+        <a href="index.html">
+            <button class="return">Return Home</button>
+        </a>
+    </div>
+</body>
+
 </html>
