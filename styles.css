@@ -9,6 +9,7 @@ body{
     display: flex;
     align-items: center;
     padding-bottom: 25px;
+    transition: 0.4s;
 }
 #heroTitle{
     text-shadow: 0 0 3px black;
