@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
@@ -13,67 +14,158 @@
 </head>
 
 <body>
-    <div id="hero">
-        <img class="pfp" src="images/pfp.jpeg" />
-        <div id="heroTitle">
-            <h1> Aaron Ballment</h1>
-            <h3> Aspiring Software Engineer</h3>
-            <p>📍 Queensland, Australia</h3>
-            <div class="btn_wrapper" id="heroBtn">
-                <a href="https://www.linkedin.com/in/aaronballment" target="_blank">
-                    <img id="btnImg" src="images/LinkedIn-Logo.png">
+    <a href="index.html">
+        <button id="navigationReturnBtn">Return to Top</button>
+    </a>
+    <div id="body">
+        <!-- Hero tab-->
+        <div id="hero">
+            <img class="pfp" src="images/pfp.jpeg" />
+            <div id="heroTitle">
+                <h1>Aaron Ballment</h1>
+                <p>📍 Queensland, Australia</h3>
+                <div class="btn_wrapper" id="heroBtn">
+                    <a href="https://www.linkedin.com/in/aaronballment" target="_blank">
+                        <img id="btnImg" src="images/LinkedIn-Logo.png">
+                    </a>
+                    <a href="https://www.github.com/aaronballment" target="_blank">
+                        <img id="btnImg" src="images/GitHub-Logo.png">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCFOiV27s_rc06VLiciWk5cQ" target="_blank">
+                        <img id="btnImg" src="images/Youtube-Logo.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <hr class="divider" />
+        <!-- About me tab-->
+        <div id="aboutMeContent">
+            <p>
+                I'm an aspiring Software/AI Engineer and have previously scaled an outbound sales automation business to
+                30K per month.
+                <br>
+                <br>
+                I am only a few months into programming and so this entire site was built only using raw html & CSS.
+            </p>
+        </div>
+        <!-- technologies tab-->
+        <div>
+            <h1 class="heading">Technologies</h1>
+            <div id="techImgContainer">
+                <img class="techImg" src="images/JavaScript-logo.png">
+                <img class="techImg" src="images/HTML-logo.png">
+                <img class="techImg" src="images/CSS-Logo.png">
+                <img class="techImg" src="images/VSCODE-logo.png">
+                <img class="techImg" src="images/Git-Logo.png">
+                <img class="techImg" src="images/GitHub-Logo.png">
+            </div>
+        </div>
+        <!-- Education tab-->
+        <div>
+            <h1 class="heading">Education</h1>
+            <div id="EducationContent">
+                <div>
+                    <h2 class="educationHeading">Primary & Secondary Education</h2>
+                    <hr>
+                    <ol>
+                        <li class="list-heading">St Anthony's Catholic Primary School</li>
+                        <p>Primary Education</p>
+                        <p>(2012 - 2014)</p>
+                        <li class="list-heading">Brisbane Christian College</li>
+                        <p>Primary & Secondary Education</p>
+                        <p>(2015 - 2024)</p>
+                    </ol>
+                </div>
+                <div>
+                    <h2 class="educationHeading">Higher Education</h2>
+                    <hr>
+                    <ol>
+                        <li class="list-heading">La Trobe University</li>
+                        <p>Introduction to Cyber Security CSE1ICB</p>
+                        <p>Data Based Critical Thinking STA1DCT</p>
+                        <p>(2025 - 2025)</p>
+                        <li class="list-heading">Queensland University of Technology</li>
+                        <p>Diploma of Information Technology</p>
+                        <p>Bachelor of Information Technology (Computer Science)</p>
+                        <p>(2025 - Present)</p>
+                    </ol>
+                </div>
+                <div>
+                    <h2 class="educationHeading">Certifications</h2>
+                    <hr>
+                    <ol>
+                        <li class="list-heading">Basair Aviation College</li>
+                        <p>Certificate 3 Aviation (Remote Piloting)</p>
+                        <p>(2023 - 2023)</p>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <!-- Projects tab-->
+        <div>
+            <h1 class="heading">My Projects</h1>
+            <div id="ProjectsContainer">
+                <a href="https://aaronballment.github.io/toDoListApp/" Target="_blank" class="projectLink">
+                    <div class="projects" id="toDoList">
+                        <div class="projectTitle">
+                            <h1>To Do List App</h1>
+                        </div>
+                    </div>
                 </a>
-                <a href="https://www.github.com/aaronballment" target="_blank">
-                    <img id="btnImg" src="images/GitHub-Logo.png">
-                </a>
-                <a href="https://www.youtube.com/channel/UCFOiV27s_rc06VLiciWk5cQ" target="_blank">
-                    <img id="btnImg" src="images/Youtube-Logo.png">
+                <a href="https://aaronballment.github.io/businessCard/" Target="_blank" class="projectLink">
+                    <div class="projects" id="businessCard">
+                        <div class="projectTitle">
+                            <h1>Business Card</h1>
+                        </div>
+                    </div>
                 </a>
             </div>
         </div>
-    </div>
-    <hr class="divider" />
-    <div class="btn_wrapper" id="btn_padding">
-        <a href="experience.html">
-            <button class="navigation_btn">Experience</button>
-        </a>
-        <a href="education.html">
-            <button class="navigation_btn">Education</button>
-        </a>
-        <a href="skills.html">
-            <button class="navigation_btn">Skills</button>
-        </a>
-        <a href="projects.html">
-            <button class="navigation_btn">Projects</button>
-        </a>
-    </div>
-    <h1 class="heading">About Me</h1>
-    <div id="aboutMeContent">
-        <p>
-            After building a outbound sales automation business to 30k p/m, I have decided to learn programming to one
-            day be able to build my own software.
-            <br>
-            <br>
-            I am only a few months into programming and so this entire site was built only using raw html & CSS.
-        </p>
-        <h3>Quick Facts:</h3>
-        <ul>
-            <li>Age: 17</li>
-            <li>Location: Queensland, Australia</li>
-            <li>Hobbies: Fitness, Sport, programming</li>
-        </ul>
-    </div>
-    <div>
-        <h1 class="heading">Technologies</h1>
-        <div id="techImgContainer">
-            <img class="techImg" src="images/JavaScript-logo.png">
-            <img class="techImg" src="images/HTML-logo.png">
-            <img class="techImg" src="images/CSS-Logo.png">
-            <img class="techImg" src="images/VSCODE-logo.png">
-            <img class="techImg" src="images/Git-Logo.png">
-            <img class="techImg" src="images/GitHub-Logo.png">
+        <!-- Experience tab-->
+        <div>
+            <h1 class="heading" id="Experience">Experience</h1>
+            <div>
+                <ol>
+                    <li class="list-heading">Co-Founder, DiscoverX</li>
+                    <p>(2023 - 2025)</p>
+                    <li class="list-heading">Clay Creator, Clay</li>
+                    <p>(2025 - Present)</p>
+                </ol>
+            </div>
         </div>
-    </div>
+        <!-- Skills tab-->
+        <div>
+            <h1 class="heading">Skills</h1>
+            <div class="content">
+                <ol>
+                    <li class="list-heading">Sales Automations (Lead Generation)</li>
+                    <p>Subskills: Copywriting, GTM Engineering, Sales Systems, AI</p>
+                    <p>Accreditation: N/A</P>
+                    <li class="list-heading">Coding</li>
+                    <p>Subskills: CSS, HTML, JavaScript (Beginner Level)</p>
+                    <p>Accreditation: Codeacademy
+                        (<a
+                            href="https://www.codecademy.com/profiles/aaronballment/certificates/705dcb15de0da4dd9d9fc4f3274b430e">
+                            Learn Javascript Course
+                        </a>)
+                    </p>
+                </ol>
+            </div>
+        </div>
+        <div class="btn_wrapper" id="btn_padding">
+            <a href="experience.html">
+                <button class="navigation_btn">Experience</button>
+            </a>
+            <a href="education.html">
+                <button class="navigation_btn">Education</button>
+            </a>
+            <a href="skills.html">
+                <button class="navigation_btn">Skills</button>
+            </a>
+            <a href="projects.html">
+                <button class="navigation_btn">Projects</button>
+            </a>
+        </div>
     </div>
 </body>
 

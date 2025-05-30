@@ -1,43 +1,45 @@
 body{
-    background: linear-gradient( #153677, #4e084e);
+    background: linear-gradient(#0e0c35);
     background-attachment: fixed;
     font-family: "Roboto Mono", monospace;
     color: #fff;
 }
+#body{
+    display: block;
+    max-width: 65%;
+    margin: 0 auto;
+}
+#navigationReturnBtn{
+    position:fixed;
+    left:20px;
+    top:20px;
+}
 #hero{
-    margin-top: 70px;
+    margin-top: 100px;
     display: flex;
     align-items: center;
+    justify-content: start;
     padding-bottom: 25px;
-    transition: 0.4s;
 }
 #heroTitle{
     text-shadow: 0 0 3px black;
     padding-left: 30px;
 }
 #heroTitle h1{
-    font-size: 100px;
-}
-#heroTitle h3, p{
-    display: flex;
-    font-size: 20px;
-    align-items: top;
-    margin-top: -20px;
-}
-#heroTitle h3{
-    margin-top: -50px;
     font-size: 40px;
 }
-
+#heroTitle p{
+    font-size: 15px;
+    margin-top: -20px;
+}
 
 .pfp{
-    margin-left: 200px;
-    width: 600px;
-    height: 600px;
+    margin-left: 40px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     border: 5px solid #fff;
 }
-
 
 .list-heading{
     font-weight: bold;
@@ -53,7 +55,8 @@ body{
     justify-content: start;
 }
 #btnImg{
-    width: 60px;
+    width: 30px;
+    margin-top: -10px;
 }
 .return{
     width: 150px;
@@ -72,13 +75,15 @@ body{
 }
 
 .divider{
-    width: 90%;
     border-color: white;
 }
 #aboutMeContent{
     display: block;
-    margin: 0 0 0 5%;
-
+    margin: 40px 0 0 40px;
+    max-width: 90%;
+}
+#aboutMeContent p{
+    font-size: large;
 }
 .heading2{
     display: block;
@@ -118,8 +123,8 @@ body{
     padding-bottom: 100px;
 }
 .projects {
-    width: 600px;
-    height: 353px;
+    width: 500px;
+    height: 291px;
     display: flex;
     align-items: center;
     border: 5px solid black;
@@ -154,7 +159,7 @@ body{
 
 #ProjectsContainer {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-top: 50px;
 }
 .projectTitle{
@@ -182,23 +187,23 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: top;
-    margin: 0 50px;
 }
 #EducationContent p{
     padding: 3px 0;
 }
 .educationHeading{
     text-align: center;
+    font-size: larger;
 }
 .techImg{
     width: 100px;
-    padding: 30px;
+    padding: 20px;
 
 }
 #techImgContainer{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 
 }
