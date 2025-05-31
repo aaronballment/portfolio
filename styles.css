@@ -122,53 +122,31 @@ body{
     padding-top: 30px;
     padding-bottom: 100px;
 }
-.projects {
-    width: 500px;
-    height: 291px;
-    display: flex;
-    align-items: center;
-    border: 5px solid black;
-    box-shadow: 0px 0px 20px white;
-    position: relative;
-}
-
-.projects::before {
-    content: "";
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.5;
-    z-index: -1;
-}
-
-#toDoList::before {
-    background-image: url('images/toDoList.png');
-}
-
-#businessCard::before {
-    background-image: url('images/businessCard.png');
-}
-
-.projects:hover::before {
-    opacity: 1;
-}
 
 #ProjectsContainer {
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    overflow: auto;
+    max-width: 100%;
+    padding-bottom: 50px;
 }
-.projectTitle{
+.projectContInd{
+    background-color: #212121;
+    box-shadow: 0 0 20px white;
+    border: 5px solid black;
+    margin: 0 30px;
+}
+.projectContInd h1 {
+    margin: 15px 0px;
     text-align: center;
-    margin: auto;
-    text-shadow: 0px 0px 3px black;
 }
-.projectTitle h1{
-    opacity: 1;
+.projectsImg{
+    width: 545px;
+    height: 271px; 
+}
+.projectContInd:hover{
+    transform: scale(1.1);
 }
 .projectLink{
     text-decoration: none;
@@ -182,6 +160,17 @@ body{
     background: transparent;
     color:#fff;
 }
+.projectsDesc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.techInfo{
+    width: 20px;
+    margin-top: 11px;
+}
+
 #EducationContent{
     display: flex;
     flex-direction: row;
@@ -196,14 +185,16 @@ body{
     font-size: larger;
 }
 .techImg{
-    width: 100px;
-    padding: 20px;
-
+    width: 45px;
+    padding: 10px;
+    border: 1px solid grey;
+    background-color: #212121 ;
 }
 #techImgContainer{
     display: flex;
+    width: 50%;
+    margin: 0 auto;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     padding-bottom: 20px;
-
 }
