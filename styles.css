@@ -1,8 +1,21 @@
 body{
     background: linear-gradient(#0e0c35);
     background-attachment: fixed;
-    font-family: "Roboto Mono", monospace;
+    font-family: "Rubik", sans-serif;
     color: #fff;
+}
+.heading{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    text-shadow: 0 0 3px black;
+}
+.heading2{
+    display: block;
+    text-align: center;
+}
+.section{
+    padding:0 0 100px 0;
 }
 #body{
     display: block;
@@ -81,13 +94,10 @@ body{
     display: block;
     margin: 40px 0 0 40px;
     max-width: 90%;
+
 }
 #aboutMeContent p{
     font-size: large;
-}
-.heading2{
-    display: block;
-    text-align: center;
 }
 .navigation_btn{
     text-align: center;
@@ -105,12 +115,6 @@ body{
     color: #153677;
     font-weight: bolder;
     cursor: pointer;
-}
-.heading{
-    text-align: center;
-    padding: 10px;
-    font-weight: bolder;
-    text-shadow: 0 0 3px black;
 }
 .btn_wrapper_return{
     display: flex;
@@ -130,6 +134,9 @@ body{
     overflow: auto;
     max-width: 100%;
     padding-bottom: 50px;
+}
+#ProjectsContainer::-webkit-scrollbar { /* this will only work in chrome...*/
+    display: none;
 }
 .projectContInd{
     background-color: #212121;
@@ -171,30 +178,75 @@ body{
     margin-top: 11px;
 }
 
-#EducationContent{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: top;
-}
-#EducationContent p{
-    padding: 3px 0;
-}
-.educationHeading{
-    text-align: center;
-    font-size: larger;
-}
-.techImg{
-    width: 45px;
-    padding: 10px;
-    border: 1px solid grey;
-    background-color: #212121 ;
-}
-#techImgContainer{
+#techContainer{
     display: flex;
     width: 50%;
     margin: 0 auto;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     padding-bottom: 20px;
+}
+.techInd{
+    display: flex;
+    width: 175px;
+    padding: 5px;
+    border: 1px solid grey;
+    background-color: #212121 ;
+    align-items: center;
+    border-radius: 5px;
+}
+.techInd:hover{
+    transform: scale(1.1);
+}
+.techInd img{
+    width: 40px;
+    margin-left: 10px;
+}
+.techDesc{
+    font-size: 150; 
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    margin-left: -3px;
+}
+
+.timelineContainer {
+    padding: 1px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.timelineContainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -17px;
+    background-color: white;
+    border: 4px solid #FF9F55;
+    top: 20px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.timelineContent{
+  padding: -10px 0 10px px;
+  position: relative;
+  border-radius: 6px;
 }

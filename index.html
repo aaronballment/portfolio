@@ -9,8 +9,10 @@
     <script src="index.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -39,70 +41,78 @@
         </div>
         <hr class="divider" />
         <!-- About me tab-->
-        <div id="aboutMeContent">
+        <div id="aboutMeContent" class = "section">
             <p>
-                I'm an aspiring Software/AI Engineer and have previously scaled an outbound sales automation business to
-                30K per month.
+                Hey there!
+                I'm an aspiring Software Engineer who wants to specialise in AI. I have previously scaled an outbound sales automation business to
+                30K per month but left it behind to pursue programming, something I am much more in love with!
                 <br>
                 <br>
                 I am only a few months into programming and so this entire site was built only using raw html & CSS.
             </p>
         </div>
         <!-- technologies tab-->
-        <div>
+        <div class = "section">
             <h1 class="heading">Technologies</h1>
-            <div id="techImgContainer">
-                <img class="techImg" src="images/JavaScript-logo.png">
-                <img class="techImg" src="images/HTML-logo.png">
-                <img class="techImg" src="images/CSS-Logo.png">
-                <img class="techImg" src="images/VSCODE-logo.png">
-                <img class="techImg" src="images/Git-Logo.png">
-                <img class="techImg" src="images/GitHub-Logo.png">
+            <div id="techContainer">
+                <div class="techInd">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Javascript Logo">
+                    <div class ="techDesc">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+                <div class="techInd">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML Logo"/>
+                    <div class ="techDesc">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="techInd">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS Logo"/>
+                    <div class ="techDesc">
+                        <p>CSS</p>
+                    </div>
+                </div>
             </div>
         </div>
         <!-- Education tab-->
-        <div>
+        <div class = "section">
             <h1 class="heading">Education</h1>
-            <div id="EducationContent">
-                <div>
-                    <h2 class="educationHeading">Primary & Secondary Education</h2>
-                    <hr>
-                    <ol>
-                        <li class="list-heading">St Anthony's Catholic Primary School</li>
-                        <p>Primary Education</p>
-                        <p>(2012 - 2014)</p>
-                        <li class="list-heading">Brisbane Christian College</li>
+            <div class = "timeline">
+                <div class = "timelineContainer">
+                    <div class = "timelineContent">
+                        <h2>Brisbane Christian College</h2>
                         <p>Primary & Secondary Education</p>
-                        <p>(2015 - 2024)</p>
-                    </ol>
+                        <p>(2012 - 2014)</p>
+                    </div>
                 </div>
-                <div>
-                    <h2 class="educationHeading">Higher Education</h2>
-                    <hr>
-                    <ol>
-                        <li class="list-heading">La Trobe University</li>
+                <div class = "timelineContainer">
+                    <div class = "timelineContent">
+                        <h2>Basair Aviation College</h2>
+                        <p>Certificate 3 Aviation (Remote Piloting)</p>
+                        <p>(2023 - 2023)</p>
+                    </div>
+                </div>
+                <div class = "timelineContainer">
+                    <div class = "timelineContent">
+                        <h2>La Trobe University</h2>
                         <p>Introduction to Cyber Security CSE1ICB</p>
                         <p>Data Based Critical Thinking STA1DCT</p>
                         <p>(2025 - 2025)</p>
-                        <li class="list-heading">Queensland University of Technology</li>
+                    </div>
+                </div>
+                <div class = "timelineContainer">
+                    <div class = "timelineContent">
+                        <h2>Queensland University of Technology</h2>
                         <p>Diploma of Information Technology</p>
                         <p>Bachelor of Information Technology (Computer Science)</p>
                         <p>(2025 - Present)</p>
-                    </ol>
-                </div>
-                <div>
-                    <h2 class="educationHeading">Certifications</h2>
-                    <hr>
-                    <ol>
-                        <li class="list-heading">Basair Aviation College</li>
-                        <p>Certificate 3 Aviation (Remote Piloting)</p>
-                        <p>(2023 - 2023)</p>
-                    </ol>
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Projects tab-->
-        <div>
+        <div class = "section">
             <h1 class="heading">My Projects</h1>
             <div id="ProjectsContainer">
                 <div>
@@ -138,7 +148,7 @@
             </div>
         </div>
         <!-- Experience tab-->
-        <div>
+        <div class = "section">
             <h1 class="heading" id="Experience">Experience</h1>
             <div>
                 <ol>
@@ -150,9 +160,9 @@
             </div>
         </div>
         <!-- Skills tab-->
-        <div>
+        <div class = "section">
             <h1 class="heading">Skills</h1>
-            <div class="content">
+            <div class="skillsContent">
                 <ol>
                     <li class="list-heading">Sales Automations (Lead Generation)</li>
                     <p>Subskills: Copywriting, GTM Engineering, Sales Systems, AI</p>
